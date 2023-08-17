@@ -1,9 +1,9 @@
-import numpy as np
 import re
-from sklearn.preprocessing import StandardScaler
+
+import numpy as np
 from sklearn.neighbors import NearestNeighbors
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import FunctionTransformer
+from sklearn.preprocessing import FunctionTransformer, StandardScaler
 
 
 def scaling(dataframe):

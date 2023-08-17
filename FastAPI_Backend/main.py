@@ -1,9 +1,9 @@
-from fastapi import FastAPI
-from pydantic import BaseModel,conlist
-from typing import List,Optional
-import pandas as pd
-from model import recommend,output_recommended_recipes
+from typing import List, Optional
 
+import pandas as pd
+from fastapi import FastAPI
+from model import output_recommended_recipes, recommend
+from pydantic import BaseModel, conlist
 
 dataset=pd.read_csv('../Data/dataset.csv',compression='gzip')
 

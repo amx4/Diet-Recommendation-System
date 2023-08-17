@@ -1,7 +1,7 @@
+import pandas as pd
 import streamlit as st
 from Generate_Recommendations import Generator
 from ImageFinder.ImageFinder import get_images_links as find_image
-import pandas as pd
 from streamlit_echarts import st_echarts
 
 st.set_page_config(page_title="Custom Food Recommendation", page_icon="🔍",layout="wide")
